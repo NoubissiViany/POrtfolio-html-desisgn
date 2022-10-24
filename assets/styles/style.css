@@ -63,6 +63,7 @@ a {
   justify-content: center;
   text-align: center;
   padding-top: 50px;
+  flex-wrap: wrap;
  }
  
  figcaption {
