@@ -24,7 +24,6 @@ a {
   height: 90vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   line-height: 1px;
  } 
@@ -40,7 +39,7 @@ a {
   font-size: 30px;
  }
 
- /* Work */
+ /* Projects */
 
  #work {
   background-color: #45567d;
