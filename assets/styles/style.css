@@ -4,19 +4,21 @@ nav {
   gap: 20px;
   display: flex;
   justify-content: flex-end;
-  position: sticky;
+  position: relative;
+  z-index: 10;
 }
 
 a {
   text-decoration: none;
   color: aliceblue;
-  font-size: large;
+  font-size: 20px;
   }
 
   /* about */
 
  #about {
   text-align: center;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   background-color: #000;
   width: 100%;
   height: 90vh;
@@ -24,18 +26,66 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  line-height: 1px;
  } 
 
- section h1 {
+ .h1 {
   font-weight: bold;
   color: aliceblue;
-  font-size: 50px;     
+  font-size: 50px;
  }
 
  section i {
   color: #be3144;
   font-size: 30px;
+ }
+
+ /* work */
+
+ .work1 {
+  background-color: #45567d;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .h1{
+  text-align: center;
+  padding-top: 70px;
+ }
+
+ hr {
+  width: 665px;
+  margin-top: -30px;
+ }
+
+ .work2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+ }
+ 
+ figcaption {
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  background-color: #303841;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: -4px;
+ }
+
+ .btn {
+  color: aliceblue;
+  background-color: #303841;
+  justify-content: center;
+  border: none;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 15px;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 50px;
  }
   
 
