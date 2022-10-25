@@ -88,8 +88,9 @@ figcaption {
   border: none;
   padding: 15px;
   font-size: 25px;
-  margin: 40px;
+  margin: auto;
   margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 /* Contact */
