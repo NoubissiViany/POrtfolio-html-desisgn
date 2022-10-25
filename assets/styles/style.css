@@ -48,12 +48,14 @@ section i {
 }
 
 .projects-h1 {
+  font-size: 45px;
+  color: aliceblue;
   text-align: center;
   padding-top: 70px;
 }
 
 hr {
-  width: 665px;
+  width: 600px;
   margin-top: -30px;
 }
 
@@ -86,8 +88,9 @@ figcaption {
   border: none;
   padding: 15px;
   font-size: 25px;
-  margin: 40px;
+  margin: auto;
   margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 /* Contact */
@@ -131,7 +134,7 @@ figcaption {
 
 footer {
   display: flex;
-  gap: 51px;
+  gap: 50px;
   color: aliceblue;
   justify-content: center;
   font-size: 22px;
