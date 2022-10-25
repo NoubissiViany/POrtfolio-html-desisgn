@@ -131,7 +131,7 @@ figcaption {
 
 footer {
   display: flex;
-  gap: 51px;
+  gap: 50px;
   color: aliceblue;
   justify-content: center;
   font-size: 22px;
