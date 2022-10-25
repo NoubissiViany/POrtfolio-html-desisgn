@@ -104,21 +104,24 @@ a {
   color: aliceblue; 
   padding-top: 50px; 
   font-size: 70px;
+  margin-bottom: 1px;
 }
 
 .contact-p {
   text-align: center;
   color: aliceblue;
   font-size: 20px;
+  font-style: italic;
 }
 
 .contact-p2 {
   display: flex;
-  gap: 25px;
+  gap: 70px;
   color: aliceblue;
   justify-content: center;
   font-weight: bold;
   font-size: 25px;
+  padding-top: 10px;
 }
 
 .contact-hr {
