@@ -56,11 +56,12 @@ a {
   width: 665px;
   margin-top: -30px;
  }
+
  figure {
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
  }
 
- .projects{
+ .projects {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -83,15 +84,13 @@ a {
   background-color: #303841;
   justify-content: center;
   border: none;
-  margin-left: 40%;
-  margin-right: 40%;
   padding: 15px;
   font-size: 25px;
-  margin-top: 40px;
+  margin: 40px;
   margin-bottom: 50px;
  }
   
-/* Contact */
+/*Contact*/
 
 #contact {
   background-color: #303841;
@@ -102,7 +101,7 @@ a {
 .contact-h1 {
   text-align: center;
   color: aliceblue; 
-  padding-top: 50px; 
+  padding-top: 50px;
   font-size: 70px;
   margin-bottom: 1px;
 }
