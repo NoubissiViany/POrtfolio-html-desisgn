@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
 nav {
   background: #be3144;
   padding: 20px;
@@ -34,9 +35,10 @@ a {
   font-size: 50px;
 }
 
-section i {
+.about-i {
   color: #be3144;
   font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Projects */
@@ -66,13 +68,11 @@ figure {
 .projects {
   display: flex;
   justify-content: center;
-  text-align: center;
   padding-top: 50px;
   flex-wrap: wrap;
 }
 
 figcaption {
-  display: flex;
   color: aliceblue;
   justify-content: center;
   background-color: #303841;
@@ -126,6 +126,10 @@ figcaption {
   padding-top: 10px;
 }
 
+.contact-i {
+  margin-right: 8px;
+}
+
 .contact-hr {
   margin-top: 70px;
   width: 99.5%;
@@ -141,3 +145,5 @@ footer {
   margin-top: 25px;
   margin-bottom: 20px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
