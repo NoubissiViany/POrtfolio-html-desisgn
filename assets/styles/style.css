@@ -48,12 +48,14 @@ section i {
 }
 
 .projects-h1 {
+  font-size: 45px;
+  color: aliceblue;
   text-align: center;
   padding-top: 70px;
 }
 
 hr {
-  width: 665px;
+  width: 600px;
   margin-top: -30px;
 }
 
